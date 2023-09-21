@@ -2,7 +2,7 @@ $('.btn-primary').on('click', function() {
     $('img').addClass('animate__flipInX')
     setTimeout(
         function () {
-            $("img").attr("src", "/Ifat/IMG_6889.JPG");
+            $("img").attr("src", "/Ifat/IMG_6889.JPG").attr("style", "height: 400px");
         }, 100);
     setTimeout(
         function () {

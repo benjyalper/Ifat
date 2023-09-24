@@ -15,7 +15,7 @@ $('.btn-outline-secondary').on('click', function() {
     $('img').addClass('animate__flipInX')
     setTimeout(
         function () {
-            $("img").attr("src", "/Ifat/IMG_0366.JPG");
+            $("img").attr("src", "/Ifat/IMG_8505.jpg").attr("style", "height: 400px").attr("style", "width: 300px");
         }, 100);
     setTimeout(
         function () {

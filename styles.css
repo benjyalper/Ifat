@@ -1,16 +1,36 @@
 
+
 body {
     height: 100vh;
     width: 100vw;
     background: linear-gradient( #3f87a6, #ebf8e1, #f69d3c);
+    direction: rtl;
+}
+
+h1 {
+    color:#0a5474 !important;
+}
+
+
+p {
+    color:#3f87a6;  
 }
 
 .btn-primary {
     background-color: #3f87a6 !important;
-    margin-left: 260px;
+    margin-left: 5px;
 }
 
 .btn-outline-secondary {
     background-color: #ebf8e1 !important; 
 }
+
+img {
+    box-shadow: 10px 10px 30px #3f87a6;
+}
+
+audio {
+    width: 200px;
+}
+
 
